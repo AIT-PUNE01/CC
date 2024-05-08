@@ -6,3 +6,8 @@ api_version: 1
 handlers:
 - url: /.*
   script: index.py
+
+
+
+#This is a configuration file written in YAML format for deploying an application named "ae--01--trivial" with version 1, using Python as the runtime environment.
+#The handlers section defines how incoming HTTP requests should be handled:
