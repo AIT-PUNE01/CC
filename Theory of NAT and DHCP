@@ -1,0 +1,19 @@
+A virtual machine (VM) is a software emulation of a physical computer that runs an operating system and applications like a physical machine. 
+Each virtual machine typically runs its own guest operating system, such as Windows, Linux, macOS, or others. 
+The guest operating system interacts with the virtual hardware provided by the virtualization software, including virtual CPU, memory, storage, and network interfaces.
+
+NAT networking allows VMs to share the host computer's IP address and access external networks through NAT.
+Enable DHCP on the NAT network to automatically assign IP addresses to the VMs. 
+find this information within the network settings or by running commands like ifconfig 
+Set up file sharing or transfer protocols on both VMs. You can use protocols like SCP (Secure Copy Protocol)
+VMs can communicate with each other over the NAT network by pinging each other's IP addresses.
+
+sudo ifconfig eth0:
+This command uses sudo to execute the following command with root privileges.
+ifconfig is a command-line utility used to configure network interfaces on a Unix-like operating system.
+eth0 refers to the first Ethernet interface (network interface card) on the system.
+
+scp transfer.txt vagrant@(ip):/home/vagrant:
+scp is the command-line utility used for securely copying files between hosts.
+vagrant@(ip) specifies the username (vagrant) and the IP address of the destination host.
+:/home/vagrant specifies the destination directory on the remote host where the file should be copied.
