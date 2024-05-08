@@ -1,1 +1,12 @@
+# main.py
+def print_info():
+    name = "Your Name"
+    seat_number = "Your Seat Number"
+    department = "Your Department"
+
+    for _ in range(5):
+        print(f"Name: {name}, Seat Number: {seat_number}, Department: {department}")
+
+if __name__ == "__main__":
+    print_info()
 
