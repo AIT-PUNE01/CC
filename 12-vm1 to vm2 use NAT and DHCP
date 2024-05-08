@@ -25,7 +25,7 @@ To know the IP address of VM1
 ```$ ifconfig```
 
 Create a file.
-```Vi transfer.txt```
+```Vi filename.txt```
 (To create file)
 
 Click ```i``` to go into insert mode
